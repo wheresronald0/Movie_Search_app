@@ -30,9 +30,10 @@ window.MoviesDirectory = {
     {
       name: "Robin Hood",
       genre: "Action",
-      id:
+      id: "iy1",
+      description:
         "Robin of Loxley (Taron Egerton) a war-hardened Crusader and his Moorish commander (Jamie Foxx) mount an audacious revolt against the corrupt English crown in a thrilling action-adventure packed with gritty battlefield exploits, mind-blowing fight choreography, and a timeless romance.",
-      description: "gy1",
+
       comingSoon: false,
       img: "assets/Robin_Hood.jpg"
     },
