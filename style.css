@@ -1,3 +1,27 @@
-body {
+header {
   font-family: "Seymour One", sans-serif;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding-left: 2%;
+}
+#searchPic {
+  margin: 0 3px;
+  height: 55px;
+  width: 55px;
+}
+
+#firstBarUnderHeader {
+  height: 30px;
+  width: 100%;
+  background-color: black;
+}
+#secondBarUnderHeader {
+  height: 10px;
+  width: 100%;
+  background-color: rgb(73, 226, 247);
+}
+
+#react-root {
+  font-family: "Muli", sans-serif;
 }
