@@ -1,4 +1,5 @@
 window.MoviesDirectory = {
+  genres: ["Comedy", "Thriller", "Drama", "Action", "Romance"],
   movie: [
     {
       name: "Ralph Breaks the Internet",

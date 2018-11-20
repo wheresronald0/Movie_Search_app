@@ -46,6 +46,11 @@ const Movies = props => {
 
 //serach bar functional component
 const SearchBar = props => {
+  const genres = window.MoviesDirectory.genres;
+
+  const newSearchData = evt => {
+    props.movieSearchHandler(evt.target.value);
+  };
   return (
     <div
       style={{
@@ -54,11 +59,14 @@ const SearchBar = props => {
     >
       <form>
         <h3>Search for Movies Currently Playing </h3>
-        <input />
+        <input type="text" onChange={newSearchData} />
         <select>
-          <option />
+          <option>Select</option>
+          {genres.map(genre => {
+            return <option key={genre}>{genre}</option>;
+          })}
         </select>
-        <input />
+        <input type="checkbox" />
       </form>
     </div>
   );
@@ -77,10 +85,27 @@ class MovieDirectory extends React.Component {
     };
   }
 
+  movieSearchHandler = movieSearchFor => {
+    this.setState({ allMovies: movieSearchFor });
+  };
+
+  movieSearchHandler = movieSearchFor => {
+    this.setState({ allMovies: movieSearchFor });
+  };
+
+  //get data back from child search
+  //filter through APT and return new array
+
   render() {
+    //     const listFilter = allMovies.filter((movieList) => {
+    // if ()
+    //     });
     return (
       <div>
-        <SearchBar />
+        <SearchBar
+          genres={this.state.genres}
+          movieSearchHandler={this.movieSearchHandler}
+        />
 
         <Movies allMovies={this.state.allMovies} />
       </div>
