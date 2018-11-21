@@ -13,23 +13,33 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"
     ></script>
+
     <title>Movie Search</title>
   </head>
   <body>
     <header>
       <h1>Movie</h1>
-      <img id="searchPic" src="/assets/search_icon.png" alt="search icon" />
+      <img
+        class="animated rotateIn delay-1s"
+        id="searchPic"
+        src="/assets/search_icon.png"
+        alt="search icon"
+      />
       <h1>Search</h1>
     </header>
     <section id="firstBarUnderHeader"></section>
     <section id="secondBarUnderHeader"></section>
 
-    <section><div id="react-root"></div></section>
+    <div id="react-root"></div>
 
     <script
       src="https://unpkg.com/react@16/umd/react.development.js"
@@ -43,6 +53,10 @@
     <script
       crossorigin
       src="https://unpkg.com/babel-standalone@6/babel.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-transition-group@2.2/dist/react-transition-group.js"
     ></script>
 
     <script src="movie-api.js"></script>
