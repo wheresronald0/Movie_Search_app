@@ -23,10 +23,9 @@ The goal of this project was to create an SPA to practice managing state, workin
 
 ## Advanced Features (Silver)
 
-- API call:
-  ** to movie db for additional information
-  ** to Rotten Tomatoes for user rating
-  \*\* to local theaters for show times
+- API call to movie db for additional information
+- API call to Rotten Tomatoes for user rating
+- API call to to obtain local theaters for show times based on zip code field
 - Back-end db to store user preferences and saved/liked movies
 
 ## Assumptions
