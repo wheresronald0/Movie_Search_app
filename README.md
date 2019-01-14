@@ -40,6 +40,7 @@ The goal of this project was to create an SPA to practice managing state, workin
 - Node.js
 - jQuery
 - Babel
+- Mock JSON API
 - CSS
 - React-Transition-Group
 - HTML
