@@ -47,7 +47,7 @@ The goal of this project was to create an SPA to practice managing state, workin
 
 ## Contribution Guidelines
 
-if you'd like to contribute to this project, please checkout a branch
+If you'd like to contribute to this project, please checkout a branch
 
 ## Project's main repository
 
